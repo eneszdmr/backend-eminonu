@@ -13,4 +13,10 @@ public class LoginController {
         return "mobil app will be work inshallah şeref abiiiii :))))";
     }
 
+
+    @GetMapping("/seref")
+    public String seref(){
+        return "merhaba Şeref ÇAMBAŞI";
+    }
+
 }
